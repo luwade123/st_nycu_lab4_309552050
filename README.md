@@ -1,1 +1,2 @@
 # st_nycu_lab4_309552050
+[![Java CI with Gradle](https://github.com/luwade123/st_nycu_lab4_309552050/actions/workflows/gradle.yml/badge.svg)](https://github.com/luwade123/st_nycu_lab4_309552050/actions/workflows/gradle.yml)
