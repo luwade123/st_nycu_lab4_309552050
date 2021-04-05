@@ -28,8 +28,8 @@ jobs:
         run: chmod +x gradlew
       - name: compileJava
         run: ./gradlew compileJava
-      - name: complileTestJava
-        run: ./gradlew complieTestJava
+      - name: compileTestJava
+        run: ./gradlew compileTestJava
 
   Test:
     needs: compile
