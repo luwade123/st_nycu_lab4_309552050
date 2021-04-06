@@ -107,10 +107,9 @@ jobs:
       - uses: actions/download-artifact@v2
         with:
           name: buildJar
-          path: release
       - name: Release
         uses: softprops/action-gh-release@v1
         with:
-          files: release/*.jar
+          files: ./*.jar
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
